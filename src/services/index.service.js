@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'http://Localhost:3002/api/notes'
+const baseUrl = '/api/notes'
 
 class index_service {
     getAll = () => {
